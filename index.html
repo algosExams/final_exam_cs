@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Exam PDF Viewer</title>
+    <style>
+        /* Remove margins and padding */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Ensure body and html take the full viewport height */
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        /* Fullscreen embed */
+        .pdf-container {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Embed the PDF file occupying the full screen -->
+<embed src="2023_Final_Exam.pdf" type="application/pdf" class="pdf-container" />
+
+</body>
+</html>
