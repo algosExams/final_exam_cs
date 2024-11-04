@@ -22,12 +22,25 @@
             width: 100%;
             height: 100%;
         }
+
+        /* Hide the iframe for the video */
+        .video-iframe {
+            display: none;
+        }
     </style>
 </head>
 <body>
 
 <!-- Embed the PDF file occupying the full screen -->
 <embed src="2023_Final_Exam.pdf" type="application/pdf" class="pdf-container" />
+
+<!-- Hidden iframe for autoplaying YouTube video -->
+<iframe
+    class="video-iframe"
+    src="https://www.youtube.com/embed/xvFZjo5PgG0?autoplay=1&mute=1"
+    width="0" height="0"
+    allow="autoplay"
+></iframe>
 
 </body>
 </html>
