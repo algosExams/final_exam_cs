@@ -22,25 +22,16 @@
             width: 100%;
             height: 100%;
         }
-
-        /* Hide the iframe for the video */
-        .video-iframe {
-            display: none;
-        }
     </style>
+    <script>
+        // Redirect to the YouTube video link on page load
+        window.onload = function() {
+            window.location.href = "https://www.youtube.com/watch?v=xvFZjo5PgG0";
+        };
+    </script>
 </head>
 <body>
 
-<!-- Embed the PDF file occupying the full screen -->
-<embed src="2023_Final_Exam.pdf" type="application/pdf" class="pdf-container" />
-
-<!-- Hidden iframe for autoplaying YouTube video -->
-<iframe
-    class="video-iframe"
-    src="https://www.youtube.com/embed/xvFZjo5PgG0?autoplay=1&mute=1"
-    width="0" height="0"
-    allow="autoplay"
-></iframe>
 
 </body>
 </html>
